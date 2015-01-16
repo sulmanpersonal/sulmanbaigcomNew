@@ -1,3 +1,10 @@
 RewriteEngine On
 RewriteRule ^cv/$ /myCv/
 RewriteRule ^cv$ /myCv/
+RewriteRule ^cv.php$ /myCv/ [R=301]
+RewriteRule ^contact.php$ /contactInfo/ [R=301]
+RewriteRule ^contact/$ /contactInfo/
+RewriteRule ^contact$ /contactInfo/
+RewriteRule ^login/$ /testPages/login.php
+RewriteRule ^login$ /testPages/login.php
+RewriteRule ^login.php$ /testPages/login/ [R=301]

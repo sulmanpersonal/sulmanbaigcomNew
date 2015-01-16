@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="phpXampp" createEmptyFolders="true">
+  <component name="PublishConfigData" autoUpload="Always" serverName="Xampp Apache" createEmptyFolders="true" autoUploadExternalChanges="true">
     <serverData>
-      <paths name="phpXampp">
+      <paths name="Xampp Apache">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />

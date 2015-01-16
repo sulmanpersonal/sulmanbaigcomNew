@@ -11,6 +11,7 @@
     <schema name="" catalog="mysql"/>
     <schema name="" catalog="performance_schema"/>
     <schema name="" catalog="phpmyadmin"/>
+    <schema name="" catalog="shirts4mike"/>
     <schema name="" catalog="sulmantest1"/>
     <schema name="" catalog="test"/>
     <schema name="" catalog="webauth"/>
@@ -2111,6 +2112,23 @@
       <column name="username" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12"/>
       <column name="usergroup" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="username,usergroup"/>
+    </table>
+    <table name="products" schema="" catalog="shirts4mike" type="TABLE">
+      <column name="sku" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="img" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="price" sqlType="DECIMAL" precision="10" scale="2" nullable="true" jdbcType="3"/>
+      <column name="paypal" sqlType="VARCHAR" precision="32" scale="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="products_sizes" schema="" catalog="shirts4mike" type="TABLE">
+      <column name="product_sku" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="size_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+    </table>
+    <table name="sizes" schema="" catalog="shirts4mike" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="size" sqlType="VARCHAR" precision="32" scale="0" nullable="true" jdbcType="12"/>
+      <column name="order" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
     </table>
     <table name="user_pwd" schema="" catalog="webauth" type="TABLE">
       <column name="name" sqlType="CHAR" precision="30" scale="0" nullable="false" jdbcType="1" def="Jyc="/>
