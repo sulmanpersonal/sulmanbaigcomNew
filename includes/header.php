@@ -31,6 +31,7 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="<?php if($section == "home"){echo "active";} else {echo "";} ?>"><a href="/">Home</a></li>
+                <li class="<?php if($section == "blog"){echo "active";} else {echo "";} ?>"><a href="/blog/">My Blog</a></li>
                 <li class="<?php if($section == "myCv"){echo "active";} else {echo "";} ?>"><a href="/myCv/">My CV</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Test Pages<span class="caret"></span></a>
