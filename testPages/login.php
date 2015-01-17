@@ -47,7 +47,8 @@ include("../includes/header.php");
                     <label for="username" class="input-group">User Name: </label>
                     <input type="text" name="username" class="input-group" value="<?php if (isset($username)) { echo htmlspecialchars($username); } ?>">
                     <label for="password" class="input-group">Password:  </label>
-                    <input type="password" name="password" class="input-group" value="<?php if (isset($password)) { echo htmlspecialchars($password); } ?>">
+<!--                    Donot use saved password... not good for website-->
+                    <input type="password" name="password" class="input-group">
                     <label style="display: none" for="address" class="input-group">Address: </label>
                     <input style="display: none" type="text" name="address" id="address" class="input-group">
                     <p style="display: none">Humans (and frogs): please leave this field blank.</p>

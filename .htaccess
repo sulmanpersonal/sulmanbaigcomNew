@@ -1,11 +1,13 @@
 AddType application/x-httpd-php56 .php
 RewriteEngine On
-RewriteRule ^cv/$ /myCv/
 RewriteRule ^cv$ /myCv/
-RewriteRule ^cv.php$ /myCv/ [R=301]
+RewriteRule ^cv/$ /myCv/
 RewriteRule ^contact.php$ /contactInfo/ [R=301]
 RewriteRule ^contact/$ /contactInfo/
 RewriteRule ^contact$ /contactInfo/
-RewriteRule ^login/$ /testPages/login.php
+RewriteRule ^testPages/login$ /login/ [R=301]
+RewriteRule ^testPages/$ /login/ [R=301]
 RewriteRule ^login$ /testPages/login.php
-RewriteRule ^login.php$ /testPages/login/ [R=301]
+RewriteRule ^login/$ /testPages/login.php
+
+
