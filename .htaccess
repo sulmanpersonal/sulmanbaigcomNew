@@ -9,7 +9,7 @@ RewriteRule ^testPages/login$ /login/ [R=301]
 RewriteRule ^testPages/$ /login/ [R=301]
 RewriteRule ^login$ /testPages/login.php
 RewriteRule ^login/$ /testPages/login.php
-RewriteRule ^javaGame$ /testPages/javaGames.php
+RewriteRule ^javaGame$ /testPages/javaGame.php
 RewriteRule ^javaGame/$ /testPages/javaGame.php
 
 

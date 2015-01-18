@@ -37,7 +37,7 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Test Pages<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="/login/">Log In</a></li>
-<!--                        <li><a href="#">Another action</a></li>-->
+                        <li><a href="/javaGame/">Test Your Reactions</a></li>
 <!--                        <li><a href="#">Something else here</a></li>-->
 <!--                        <li class="divider"></li>-->
 <!--                        <li class="dropdown-header">Nav header</li>-->
