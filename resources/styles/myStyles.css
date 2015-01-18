@@ -166,3 +166,20 @@ contact file styles
 .contact-info li.youtube a {
     background-image: url('../images/icons/youtubeIcon.png');
 }
+
+/*************************************************************
+**************************************************************
+javaGame.php file styles
+**************************************************************
+*************************************************************/
+
+#box {
+    width : 200px;
+    height: 200px;
+    background-color: red;
+    display: none;
+    position: relative;
+}
+.bold {
+    font-weight: bold;
+}
