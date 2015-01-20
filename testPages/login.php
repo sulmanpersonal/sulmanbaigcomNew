@@ -23,7 +23,7 @@
             $error_message = "Your form submission has an error.";
         }
 
-        if (!isset($error_message) && $username == "sulman" && $password == "Android89"){
+        if (!isset($error_message) && $username == "admin" && $password == "admin"){
             header("Location: " . "/");
             exit;
         }else if(!isset($error_message)){
@@ -40,26 +40,52 @@ include("../includes/header.php");
 
 <section>
     <div class="container">
-        <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8 center-block">
-                <form method="post" class="form-inline" action="/login/">
-                    <label for="username" class="input-group">User Name: </label>
-                    <input type="text" name="username" class="input-group" value="<?php if (isset($username)) { echo htmlspecialchars($username); } ?>">
-                    <label for="password" class="input-group">Password:  </label>
-<!--                    Donot use saved password... not good for website-->
-                    <input type="password" name="password" class="input-group">
-                    <label style="display: none" for="address" class="input-group">Address: </label>
-                    <input style="display: none" type="text" name="address" id="address" class="input-group">
-                    <p style="display: none">Humans (and frogs): please leave this field blank.</p>
-                    <input type="submit" value="Log in" class=" input-group btn-default">
-                </form><br/>
-                <p style="color: red"><?php
-                    if(isset($error_message))
-                        echo $error_message;?></p>
+        <form method="post" class="form-inline" action="/login/">
+            <div class="row">
+                <div class="col-md-12">
+                    <label for="username" class="input-group" id="labelUser">User Name: </label>
+                </div>
             </div>
-            <div class="col-md-2"></div>
-        </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <input type="text" name="username" class="input-group" id="username" value="<?php if (isset($username)) { echo htmlspecialchars($username); } ?>">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <label for="password" class="input-group" id="labelPass">Password:  </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <input type="password" name="password" class="input-group" id="password">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <label style="display: none" for="address" class="input-group">Address: </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <input style="display: none" type="text" name="address" id="address" class="input-group">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p style="display: none">Humans (and frogs): please leave this field blank.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <input type="submit" value="Log in" class="text-muted" disabled="true" id="submit">
+                </div>
+            </div>
+        </form>
+        <br/>
+        <p style="color: red"><?php
+            if(isset($error_message))
+                echo $error_message;?></p>
     </div>
 </section>
 

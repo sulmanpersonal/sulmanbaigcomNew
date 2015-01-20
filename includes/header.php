@@ -10,6 +10,8 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="../resources/js/loginScript.js"></script>
 
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:700|Merriweather' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
