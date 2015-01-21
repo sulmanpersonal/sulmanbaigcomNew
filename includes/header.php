@@ -40,7 +40,7 @@
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="/login/">Log In</a></li>
                         <li><a href="/javaGame/">Test Your Reactions</a></li>
-<!--                        <li><a href="#">Something else here</a></li>-->
+                        <li><a href="/bin/">HTML/CSS BIN</a></li>
 <!--                        <li class="divider"></li>-->
 <!--                        <li class="dropdown-header">Nav header</li>-->
 <!--                        <li><a href="#">Separated link</a></li>-->

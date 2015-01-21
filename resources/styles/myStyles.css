@@ -183,3 +183,44 @@ javaGame.php file styles
 .bold {
     font-weight: bold;
 }
+
+/*************************************************************
+**************************************************************
+htmlcssbin.php file styles
+**************************************************************
+*************************************************************/
+.binCodeContainer {
+    height: 100%;
+}
+.binCodeContainer textarea {
+    width: 100%;
+    height: 100%;
+    border: none;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 90%;
+    padding: 5px;
+}
+#binResultFrame {
+    width: 100%;
+    height: 100%;
+}
+#binCSSContainer, #binResultContainer {
+    display: none;
+}
+#binToggles,#binName,#binButton {
+    padding: 1%;
+    color: #eeeeee;
+}
+#binRunButton {
+    background-color: #080808;
+    font-size: x-large;
+    width: 35%;
+}
+#binName {
+    font-weight: bold;
+    font-size: x-large;
+}
+#binToggles {
+    margin-left: 1%;
+}

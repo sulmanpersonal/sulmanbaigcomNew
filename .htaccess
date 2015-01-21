@@ -11,5 +11,7 @@ RewriteRule ^login$ /testPages/login.php
 RewriteRule ^login/$ /testPages/login.php
 RewriteRule ^javaGame$ /testPages/javaGame.php
 RewriteRule ^javaGame/$ /testPages/javaGame.php
+RewriteRule ^bin$ /testPages/htmlcssbin.php
+RewriteRule ^bin/$ /testPages/htmlcssbin.php
 
 
