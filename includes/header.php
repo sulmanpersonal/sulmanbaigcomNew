@@ -38,11 +38,12 @@
                 <li class="<?php if($section == "blog"){echo "active";} else {echo "";} ?>"><a href="/blog/">My Blog</a></li>
                 <li class="<?php if($section == "myCv"){echo "active";} else {echo "";} ?>"><a href="/cv/">My CV</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Test Pages<span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Development<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="/login/">Log In</a></li>
                         <li><a href="/javaGame/">Test Your Reactions</a></li>
                         <li><a href="/bin/">HTML/CSS BIN</a></li>
+                        <li><a href="http://testapp.sulmanbaig.com">TO DO LIST APP</a></li>
 <!--                        <li class="divider"></li>-->
 <!--                        <li class="dropdown-header">Nav header</li>-->
 <!--                        <li><a href="#">Separated link</a></li>-->
